@@ -1,0 +1,117 @@
+/* Set a white background for the entire page */
+body {
+    background-color: #fff; /* White background color */
+    margin: 0; /* Removes default body margin */
+    font-family: Arial, sans-serif; /* Change the font family if needed */
+    color: #000; /* Set default text color */
+}
+
+/* Additional styling for the h1 element */
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #333; /* Text color for the heading */
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* Other styles */
+
+.sidebar {
+    position: absolute;
+    left: 10px; /* Adjust left spacing as needed */
+    top: 50px; /* Adjust top spacing as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vertical-button {
+    margin-bottom: 10px; /* Adjust vertical spacing between buttons */
+    padding: 8px 16px; /* Adjust button padding */
+    border: 1px solid #000; /* Vintage button border */
+    background-color: #f0f0f0; /* Vintage button background color */
+    font-size: 16px; /* Adjust font size */
+}
+
+
+/* Common styles for both mobile and desktop */
+
+/* Example styles for desktop */
+/* ... */
+
+/* Media query for tablets and larger mobile devices */
+@media only screen and (max-width: 1024px) {
+    /* Adjust layout and styles for tablets */
+  
+    /* Example styles: */
+    body {
+      font-size: 16px; /* Increase font size for better readability */
+    }
+  
+    /* Adjust layout for smaller screens */
+    .content {
+      padding: 20px; /* Add more padding for better spacing */
+    }
+  
+    /* Example styles for buttons */
+    .button {
+      width: 100%; /* Make buttons full width */
+      margin-bottom: 15px; /* Increase spacing between buttons */
+    }
+  
+    /* Other adjustments for tablets */
+    /* ... */
+  }
+  
+  /* Media query for mobile devices */
+  /* Common styles */
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    header {
+        text-align: center; /* Center-align header content */
+    }
+
+    h1 {
+        margin-bottom: 20px; /* Add space between h1 and buttons */
+    }
+
+    .button-container {
+        display: block; /* Make buttons stacked */
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Existing CSS for note content display */
+#noteContentDisplay {
+    /* Other existing styles */
+    padding: 10px; /* Add padding of 10px around the note content */
+}
